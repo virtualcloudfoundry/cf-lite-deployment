@@ -1,0 +1,5 @@
+# add the vmss related properties to the instance groups.
+- type: replace
+  path: /instance_groups/name=cf-all-in-one/cloud_properties/vmss?
+  value:
+    availability_zones: '1,2'
