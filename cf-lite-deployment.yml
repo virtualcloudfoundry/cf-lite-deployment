@@ -1106,7 +1106,7 @@ instance_groups:
         host: "127.0.0.1" # port exposed
         grpc_port: 3458 # port exposed
 
-  - name: cf-lite
+  - name: cf_lite
     release: cf-lite-release
 
 - name: singleton-blobstore
