@@ -39,7 +39,7 @@ instance_groups:
   - z1
   instances: 1
   persistent_disk_type: 100GB
-  vm_type: small
+  vm_type: medium
   vm_extensions:
   - 100GB_ephemeral_disk
   - cf-router-network-properties
