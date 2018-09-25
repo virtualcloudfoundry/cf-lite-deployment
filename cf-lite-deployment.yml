@@ -11,7 +11,7 @@ addons:
 - name: loggregator_agent
   include:
     stemcell:
-    - os: ubuntu-xenial
+    - os: ubuntu-trusty
   exclude:
     jobs:
     - name: smoke_tests
@@ -29,7 +29,7 @@ addons:
 - name: bpm
   include:
     stemcell:
-    - os: ubuntu-xenial
+    - os: ubuntu-trusty
   jobs:
   - name: bpm
     release: bpm
@@ -1646,5 +1646,5 @@ releases:
   version: latest
 stemcells:
 - alias: default
-  os: ubuntu-xenial
-  version: "97.17"
+  os: ubuntu-trusty
+  version: "3586.24"
